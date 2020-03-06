@@ -25,7 +25,7 @@ SECRET_KEY = 'bz*_^261ru*drf3-6$zx5$2*+hum0@*l8t6d80ujpoqw)vxqgz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['145.89.165.208']
 
 
 # Application definition
@@ -37,7 +37,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'events.apps.EventsConfig',
+
+    # custom app
+    'events',
+    'events_ophalen',
+    'events_tonen',
+    'events_schrijven',
+    'testpage_1',
+    'test123',
+
+
 ]
 
 MIDDLEWARE = [
@@ -75,11 +84,21 @@ WSGI_APPLICATION = 'Open_ICT_events.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    },
+    'Hugo': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'project2',
+        'USER': 'postgres',
+        'PASSWORD': 'WelKom7993',
+        'HOST': '145.89.204.216',
+        'PORT': '5432',
     }
+
 }
 
 
