@@ -1,4 +1,4 @@
-#!C:\Users\dariu\PycharmProjects\Open_ICT_events\venv\Scripts\python.exe
+#!C:\Users\Darius\PycharmProjects\Tribe-A-Events-Python_backend\venv\Scripts\python.exe
 # EASY-INSTALL-ENTRY-SCRIPT: 'setuptools==40.8.0','console_scripts','easy_install-3.7'
 __requires__ = 'setuptools==40.8.0'
 import re

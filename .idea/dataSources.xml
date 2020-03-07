@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="project2@145.89.204.216" uuid="0eb6f338-7939-4424-a4bc-006778c077c6">
+    <data-source source="LOCAL" name="PostgreSQL - project2@83.128.152.249" uuid="0eb6f338-7939-4424-a4bc-006778c077c6">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://145.89.204.216:5432/project2</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="jdbc:postgresql://127.0.0.1:55203/?key=17752f7d-aea7-4806-9a8a-c03bb713bb74:55203/project2?key=17752f7d-aea7-4806-9a8a-c03bb713bb74" uuid="8a93e1fd-cb7f-4ebb-a4ce-0456d9832e3e">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1:55203/?key=17752f7d-aea7-4806-9a8a-c03bb713bb74:55203/project2?key=17752f7d-aea7-4806-9a8a-c03bb713bb74</jdbc-url>
+      <jdbc-url>jdbc:postgresql://83.128.152.249:5432/project2</jdbc-url>
     </data-source>
   </component>
 </project>

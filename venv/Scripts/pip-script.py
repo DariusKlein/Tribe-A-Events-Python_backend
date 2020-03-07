@@ -1,4 +1,4 @@
-#!C:\Users\dariu\PycharmProjects\Open_ICT_events\venv\Scripts\python.exe
+#!C:\Users\Darius\PycharmProjects\Tribe-A-Events-Python_backend\venv\Scripts\python.exe
 # EASY-INSTALL-ENTRY-SCRIPT: 'pip==19.0.3','console_scripts','pip'
 __requires__ = 'pip==19.0.3'
 import re
