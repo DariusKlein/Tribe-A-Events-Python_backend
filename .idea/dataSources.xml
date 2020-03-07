@@ -7,5 +7,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://145.89.204.216:5432/project2</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="jdbc:postgresql://127.0.0.1:55203/?key=17752f7d-aea7-4806-9a8a-c03bb713bb74:55203/project2?key=17752f7d-aea7-4806-9a8a-c03bb713bb74" uuid="8a93e1fd-cb7f-4ebb-a4ce-0456d9832e3e">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:55203/?key=17752f7d-aea7-4806-9a8a-c03bb713bb74:55203/project2?key=17752f7d-aea7-4806-9a8a-c03bb713bb74</jdbc-url>
+    </data-source>
   </component>
 </project>
