@@ -2,8 +2,9 @@
 from django.urls import path
 
 from . import views
+from events.views import Event
 
 urlpatterns = [
-    path('', views.index(1))
+    path('<int:url_id>/', views.index)
 
 ]
