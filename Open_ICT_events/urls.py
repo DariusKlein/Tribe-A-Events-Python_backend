@@ -21,6 +21,6 @@ from events.views import Event
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('test/', include('events.urls')),
-    #path("<int:id>", include('events.urls.')),
+    path('', include('events.urls')),
 
 ]
