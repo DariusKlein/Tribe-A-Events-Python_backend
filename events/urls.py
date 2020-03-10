@@ -5,6 +5,6 @@ from . import views
 
 urlpatterns = [
     path('<int:url_id>/', views.Event_read),
-    path('', views.Test_hub_view)
+    path('', views.Startpagina)
 
 ]

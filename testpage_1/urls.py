@@ -16,12 +16,15 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 from events.views import Event
+from django.views.generic.base import TemplateView
+
+from django.contrib import admin
+from django.urls import path
+from testpage_1 import views
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('test/', include('events.urls')),
-    path('', include('events.urls')),
-    path('front/', include('testpage_1.urls')),
+    path('', views.Index.as_view(), name='index'),
+    path('page1', views.Page.as_view(), name='page1'),
 
 ]

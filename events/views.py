@@ -20,9 +20,7 @@ def Event_read(response, url_id):
     return HttpResponse(html)
 
 
-def Test_hub_view(response):
-
-    test_hub_object = Test_hub_model.objects.get(id=1)
+def Startpagina(response):
 
     html = "<h1>Event list</h1>" + \
             '<a href="/admin"> Admin page <br></a>' + \
