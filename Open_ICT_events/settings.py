@@ -91,7 +91,7 @@ DATABASES = {
         'NAME': 'project2',
         'USER': 'postgres',
         'PASSWORD': 'WelKom7993',
-        'HOST': '83.128.152.249',
+        'HOST': '145.89.205.50',
         'PORT': '5432',
     },
     'information': {
