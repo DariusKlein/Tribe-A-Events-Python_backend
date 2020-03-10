@@ -14,7 +14,7 @@ class Index(View):
 
 
 
-class Page(View):
+class page1(View):
     template = 'page1.html'
 
     def get(self, request):
