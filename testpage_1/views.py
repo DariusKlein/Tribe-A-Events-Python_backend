@@ -19,3 +19,10 @@ class page1(View):
 
     def get(self, request):
         return render(request, self.template)
+
+
+class page2(View):
+    template = 'page2.html'
+
+    def get(self, request):
+        return render(request, self.template)

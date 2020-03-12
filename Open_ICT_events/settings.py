@@ -25,7 +25,7 @@ SECRET_KEY = 'bz*_^261ru*drf3-6$zx5$2*+hum0@*l8t6d80ujpoqw)vxqgz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.178.4', '62.251.126.253', '145.89.165.208']
+ALLOWED_HOSTS = ['192.168.178.4', '62.251.126.253', '145.89.165.208','145.89.165.23']
 
 
 # Application definition
@@ -93,7 +93,7 @@ DATABASES = {
         'NAME': 'project2',
         'USER': 'postgres',
         'PASSWORD': 'WelKom7993',
-        'HOST': '83.128.152.249',#145.89.205.50
+        'HOST': '83.128.152.249',#145.89.205.12 #83.128.152.249
         'PORT': '5432',
     },
     'information': {

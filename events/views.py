@@ -24,6 +24,7 @@ def Startpagina(response):
 
     html = "<h1>Event list</h1>" + \
             '<a href="/admin"> Admin page <br></a>' + \
+            '<a href="/front"> Front-end demo page <br></a>' + \
             "<html><body>Events: %s <br> </body></html>" % Event.objects.count()
 
     for x in range (Event.objects.count()):
@@ -36,3 +37,4 @@ def Startpagina(response):
                "<html><body> begin datum: %s, </a>'</body></html>" % event.begin_datum + \
                '<a href="/test/%s"> Meer informatie <br></a>' %x
     return HttpResponse(html)
+

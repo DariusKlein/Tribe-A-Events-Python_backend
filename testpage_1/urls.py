@@ -26,5 +26,5 @@ from testpage_1 import views
 urlpatterns = [
     path('', views.Index.as_view(), name='index'),
     path('page1', views.page1.as_view(), name='page1'),
-
+    path('page2', views.page2.as_view(), name='page2'),
 ]

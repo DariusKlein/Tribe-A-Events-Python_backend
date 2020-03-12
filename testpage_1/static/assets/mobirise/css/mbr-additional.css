@@ -828,43 +828,85 @@ section.lazy-placeholder:after {
 .cid-rSPkPkrnGf textarea.form-control {
   min-height: 188px;
 }
-.cid-rSPDp5bL1G {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #ffffff;
+.cid-rT23mwA7s4 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #f9f9f9;
 }
-.cid-rSPDp5bL1G h4 {
-  width: 85%;
-  font-weight: 500;
-  margin-bottom: 0;
-}
-.cid-rSPDp5bL1G p {
+.cid-rT23mwA7s4 .mbr-section-subtitle {
   color: #767676;
 }
-.cid-rSPDp5bL1G .card-wrapper {
-  border-top: 1px solid #efefef;
-  background-color: #ffffff;
-  position: relative;
-  justify-content: unset;
+.cid-rT23mwA7s4 .container-table {
+  margin: 0 auto;
 }
-.cid-rSPDp5bL1G .card-wrapper .card-box {
-  padding: 2rem;
-  width: 100%;
+.cid-rT23mwA7s4 .scroll {
+  overflow-x: auto;
+  padding: 0;
 }
-.cid-rSPDp5bL1G .card-wrapper .card-box .top-line {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.cid-rT23mwA7s4 .dataTables_wrapper {
+  display: block;
 }
-.cid-rSPDp5bL1G .card-wrapper .card-box .bottom-line {
-  width: 85%;
+.cid-rT23mwA7s4 .dataTables_wrapper .search {
+  margin-bottom: .5rem;
 }
-@media (max-width: 767px) {
-  .cid-rSPDp5bL1G .card-wrapper .card-box .bottom-line {
-    width: 100%;
-  }
-  .cid-rSPDp5bL1G .card-wrapper .card-box .bottom-line p {
+.cid-rT23mwA7s4 .dataTables_wrapper .table {
+  overflow-x: auto;
+}
+.cid-rT23mwA7s4 table {
+  width: 100% !important;
+  margin-top: 6px;
+  border: 1px solid #cccccc;
+  margin-bottom: 0;
+}
+.cid-rT23mwA7s4 table th {
+  border-top: none;
+  transition: all .2s;
+  border-bottom: none;
+}
+.cid-rT23mwA7s4 table th:hover {
+  background: #cccccc;
+  color: #000000;
+}
+.cid-rT23mwA7s4 table td {
+  border-top: 1px solid #cccccc;
+}
+.cid-rT23mwA7s4 table.table {
+  background: #ffffff;
+}
+.cid-rT23mwA7s4 .dataTables_filter {
+  text-align: right;
+  margin-bottom: .5rem;
+}
+.cid-rT23mwA7s4 .dataTables_filter label {
+  display: inline;
+  white-space: normal !important;
+}
+.cid-rT23mwA7s4 .dataTables_filter input {
+  display: inline;
+  width: auto;
+  margin-left: .5rem;
+  border-radius: 100px;
+  padding-left: 1rem;
+}
+.cid-rT23mwA7s4 .dataTables_info {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  white-space: normal !important;
+}
+@media (max-width: 992px) {
+  .cid-rT23mwA7s4 .dataTables_filter {
     text-align: center;
-    margin: 1rem 0 0 0;
   }
+}
+@media (max-width: 350px) {
+  .cid-rT23mwA7s4 .dataTables_filter {
+    text-align: center;
+  }
+  .cid-rT23mwA7s4 .dataTables_filter input {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+}
+.cid-rT23mwA7s4 .head-item {
+  text-align: left;
 }
