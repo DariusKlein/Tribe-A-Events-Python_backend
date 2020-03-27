@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    #Rest framework
+    'rest_framework',
+
     # custom app
     'events',
     'events_ophalen',
@@ -93,7 +96,7 @@ DATABASES = {
         'NAME': 'project2',
         'USER': 'postgres',
         'PASSWORD': 'WelKom7993',
-        'HOST': '83.128.152.249',#145.89.205.12 #83.128.152.249
+        'HOST': '83.128.60.121',#145.89.205.12 #83.128.152.249
         'PORT': '5432',
     },
     'information': {
