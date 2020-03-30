@@ -22,8 +22,9 @@ from django.urls import re_path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('test/', include('events.urls')),
-    path('', include('events.urls')),
-    path('front/', include('testpage_1.urls')),
+    path('', include('Landing_Page.urls')),
 
+
+    path('events/', include('events.urls')),
+    path('front/', include('testpage_1.urls')),
 ]
