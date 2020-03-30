@@ -43,11 +43,8 @@ INSTALLED_APPS = [
 
     # custom app
     'events',
-    'events_ophalen',
-    'events_tonen',
-    'events_schrijven',
+    'Feedback',
     'testpage_1',
-    'test123',
 
 
 ]
