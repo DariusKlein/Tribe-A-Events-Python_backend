@@ -24,16 +24,16 @@ def archief(response):
     event_archief = Event.objects.filter(begin_datum__lt=timezone.now().date()).order_by('begin_datum')
 
     html = "<h1>event archief</h1>" + \
-            "<html><body>Events: %s <br> </body></html>" % Event.objects.count()
+            "<html><body>Events: %s <br> </body></html>" % event_archief.count()
 
-    for x in range (event_archief.count()):
+    for x in range(event_archief.count()):
 
         event = event_archief[x]
         x = x + 1
-        html = html + "<html><body>%s) </body></html>" % x + \
+        html = html + "<html><body>%s) </body></html>" % event.id + \
                "<html><body> Titel: %s, <br></body></html>" % event.title + \
                "<html><body> begin datum: %s, </a>'</body></html>" % event.begin_datum + \
-               '<a href="/%s"> Meer informatie <br></a>' %x
+               '<a href="/%s"> Meer informatie <br></a>' %event.id
     return HttpResponse(html)
 
 

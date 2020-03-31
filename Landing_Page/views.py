@@ -12,13 +12,13 @@ def Startpagina(response):
             '<a href="/admin"> Admin page <br></a>' + \
             '<a href="/front"> Front-end demo page <br></a>' + \
             '<a href="/archief"> archief <br></a>' + \
-            "<html><body>Events: %s <br> </body></html>" % Event.objects.count()
+            "<html><body>Events: %s <br> </body></html>" % event_set.count()
 
-    for x in range (event_set.count()):
+    for x in range(event_set.count()):
         event = event_set[x]
         x = x + 1
-        html = html + "<html><body>%s) </body></html>" % x + \
+        html = html + "<html><body>%s) </body></html>" % event.id + \
                "<html><body> Titel: %s, <br></body></html>" % event.title + \
                "<html><body> begin datum: %s, </a>'</body></html>" % event.begin_datum + \
-               '<a href="/%s"> Meer informatie <br></a>' %x
+               '<a href="/%s"> Meer informatie <br></a>' %event.id
     return HttpResponse(html)
