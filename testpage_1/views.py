@@ -26,3 +26,10 @@ class page2(View):
 
     def get(self, request):
         return render(request, self.template)
+
+
+class page3(View):
+    template = 'index2.html'
+
+    def get(self, request):
+        return render(request, self.template)

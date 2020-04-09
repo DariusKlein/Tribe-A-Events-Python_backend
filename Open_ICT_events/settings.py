@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'events',
     'Feedback',
     'testpage_1',
+    'restapitest',
 
 
 ]
