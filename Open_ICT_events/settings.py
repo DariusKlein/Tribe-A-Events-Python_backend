@@ -90,18 +90,8 @@ WSGI_APPLICATION = 'Open_ICT_events.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'project2',
-        'USER': 'postgres',
-        'PASSWORD': 'WelKom7993',
-        'HOST': '83.128.60.121',#145.89.205.12 #83.128.152.249
-        'PORT': '5432',
-    },
-    'information': {
-        'NAME': 'information_schema',
-        'ENGINE': 'django.db.backends.postgresql',
-        'USER': 'postgres',
-        'PASSWORD': 'WelKom7993'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 
 }
