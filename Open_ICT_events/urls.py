@@ -27,4 +27,7 @@ urlpatterns = [
 
     path('events/', include('events.urls')),
     path('front/', include('testpage_1.urls')),
+
+
+    path("api/", include('restapitest.urls'))
 ]
