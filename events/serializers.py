@@ -3,7 +3,7 @@ from .models import Event
 
 
 
-class testserializer(serializers.ModelSerializer):
+class serializer(serializers.ModelSerializer):
     class Meta:
         model = Event
         fields = ('title', 'naam', 'beschrijving', 'begin_datum', 'eind_datum', 'start_tijd', 'eind_tijd')

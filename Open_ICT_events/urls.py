@@ -20,6 +20,7 @@ from django.urls import re_path
 
 
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('Landing_Page.urls')),
@@ -29,5 +30,7 @@ urlpatterns = [
     path('front/', include('testpage_1.urls')),
 
 
-    path("api/", include('restapitest.urls'))
+    path("api/", include('events.urls'))
+
+
 ]

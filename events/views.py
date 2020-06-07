@@ -2,6 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from events.models import Event
 from django.utils import timezone
+from rest_framework.generics import ListAPIView, RetrieveAPIView
+from .serializers import serializer
 
 
 def Event_read(response, url_id):
@@ -37,3 +39,11 @@ def archief(response):
     return HttpResponse(html)
 
 
+class Testlistview(ListAPIView):
+    queryset = Event.objects.all()
+    serializer_class = serializer
+
+
+class TestDetail(RetrieveAPIView):
+    queryset = Event.objects.all()
+    serializer_class = serializer
